@@ -1,0 +1,138 @@
+* {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+
+body{background-color: #003594;}
+.test{background-color: aquamarine;}
+/*Colours*/
+.white{color:white;}
+.black{color: black;}
+/*End of Colours*/
+.logo-position{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.logo-main{
+    height: 20%;
+    width: 20%;
+}
+.logo-main-sec{
+    margin-left: 1%;
+    margin-top: 4%;
+    height: 30%;
+    width: 30%;
+}
+.a-text{
+    text-decoration: none;
+    color: black;
+}
+.logo-position-text{
+    margin-top: 4.5%;
+    margin-left: 0.5%;
+}
+.meny-bgc{
+    background-color: #FFD100;
+}
+.meny-main{
+    height: 50px;
+}
+.a-link-meny{
+    margin-top: 0.25%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+}
+.a-link-meny-sec{
+    margin-top: 0.25%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+}
+.a-link-meny-thi{
+    margin-top: 0.25%;
+    text-decoration: none;
+    color: black;
+}
+/*Unsure if this works!!*/
+.a-link-meny:hover .a-link-meny-sec:hover{
+    color: black; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.training{
+    color: white;
+    width: 50%;
+}
+.training-title{
+
+}
+.training-text{
+
+}
+
+.Players-index{
+    height: 50%;
+    width: 60%;
+}
+.players-cards-main{
+    width: 75%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 0.5%;
+}
+.players-cards-right{
+    margin-right: 0.5%;
+}
+.players-cards-left{
+    margin-right: 0.5%;
+}
+
+
+/*Probly can remove*/
+.img-place{
+    padding: 3% 0 0.5% 0;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(100%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
+.light-mode{
+  background-color: white;
+  color: black;
+}
+.text-white{
+  color: white;
+}
+.light-mode-footer{
+  background-color: rgb(218, 218, 218);
+}
