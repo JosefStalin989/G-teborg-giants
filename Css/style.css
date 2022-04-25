@@ -17,9 +17,9 @@ body{background-color: #003594;}
 }
 .logo-main-sec{
     margin-left: 1%;
-    margin-top: 4%;
-    height: 30%;
-    width: 30%;
+    margin-top: 2%;
+    height: 50%;
+    width: 50%;
 }
 .a-text{
     text-decoration: none;
@@ -33,22 +33,22 @@ body{background-color: #003594;}
     background-color: #FFD100;
 }
 .meny-main{
-    height: 50px;
+    height: 75px;
 }
 .a-link-meny{
-    margin-top: 0.25%;
+    margin-top: 1%;
     margin-right: 2%;
     text-decoration: none;
     color: black;
 }
 .a-link-meny-sec{
-    margin-top: 0.25%;
+    margin-top: 1%;
     margin-right: 2%;
     text-decoration: none;
     color: black;
 }
 .a-link-meny-thi{
-    margin-top: 0.25%;
+    margin-top: 1%;
     text-decoration: none;
     color: black;
 }
@@ -89,7 +89,7 @@ body{background-color: #003594;}
 
 /*Probly can remove*/
 .img-place{
-    padding: 3% 0 0.5% 0;
+    padding: 1% 0 0.5% 0;
 }
 
 @media (max-width: 767px) {
